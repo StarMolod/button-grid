@@ -12,7 +12,8 @@
 	text-decoration: none;
 	font-size: 30px;
 	font-family: Arial, sans-serif;
-	display: grid;
+	display: flex;
+	justify-content: flex-start;
 	align-items: center;
 	border-radius: 100px;
 	border: 3px solid #bbbbbb;
@@ -20,7 +21,7 @@
 	color: white;
 	text-align: center;
 	line-height: 44px;
-	width: 224px;
+	width: 204px;
 	height: 54px;
 	margin-top: 5%;
 }
@@ -42,14 +43,10 @@
 	overflow: hidden;
 }
 .fa-edit {
-	padding-left: 20px;
+	padding-left: 30px;
+	margin-right: 0;
 }
 .fa-exclamation {
-	padding-right: 20px;
+	padding-right: 40px;
 }
-.button-2 {
-	grid-template-columns: 20% 80%;
-}
-.button-3 {
-	grid-template-columns: 20% 60% 20%;
-}
+
